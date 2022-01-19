@@ -9,13 +9,16 @@
   <body>
     <script>
       const me = {
-        name: "えみり",
-        const university={
-        name:"岩手大学" ,
-        class:"3年",
-        }
-
-
+        name: "伊藤絵美里",
+        isMentor: false,
+        university: {
+          name: "岩手大学",
+          class: "3",
+        },
+        hobbies: ["刺繍", "お散歩"],
+        hello: function () {
+          console.log("よろしくお願いします！")
+        },
       }
 
       // 0 表示する
@@ -41,7 +44,7 @@
 
       // 5 配列
       for (let i = 0; i < me.hobbies.length; i++) {
-        console.log(`私の趣味は${me.hobbies}です`) // この行を書き換えて、趣味が1つずつ表示されるようにしてください。
+        console.log(`私の趣味は${me.hobbies[i]}です`) // この行を書き換えて、趣味が1つずつ表示されるようにしてください。
       }
 
       // 6 関数
